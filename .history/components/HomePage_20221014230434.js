@@ -60,11 +60,13 @@ const HomePage = () => {
             <Form />
 
           </main>
-          <footer>
+          {/* <footer>
             <div className="creds">
-              <a href="https://pbehre.in" target="__blank">Pavitra </a>👨🏼‍💻
+              👨🏻‍🎨 <a href="https://twitter.com/nzeus_nisarg610" target="__blank">Nisarg </a>
+            /
+            <a href="https://twitter.com/@pGxplorer_" target="__blank"> Pratik</a> 👨🏼‍💻
           </div>
-          </footer>
+          </footer> */}
         </div>
       </Layout>
     </>

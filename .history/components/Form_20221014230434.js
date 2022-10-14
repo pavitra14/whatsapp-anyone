@@ -8,7 +8,7 @@ class Form extends React.Component {
     this.state = {
       contactVal: '',
       contact: '',
-      messageText: 'Hello',
+      messageText: 'Hello 👋',
       showCCPrompt: false,
     }
   }
