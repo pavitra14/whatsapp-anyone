@@ -13,12 +13,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^3.1.1",
-    "fastify-compress": "^3.2.2",
-    "next": "^9.4.4",
-    "next-offline": "^5.0.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-intl-tel-input": "^8.0.4"
+    "fastify": "^4.19.2",
+    "fastify-compress": "^4.1.0",
+    "next": "^13.4.8",
+    "next-offline": "^4.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intl-tel-input": "^8.2.0"
+  },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
   }
 }

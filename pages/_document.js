@@ -1,11 +1,11 @@
 import React from 'react';
-import Document, { Head, Main, NextScript } from 'next/document';
+import Document, {Html, Head, Main, NextScript } from 'next/document';
 
 //server side rendering for material-ui https://material-ui.com/guides/server-rendering/
 export default class MyDocument extends Document {
   render() {
     return (
-      <html lang="en">
+      <Html lang="en">
         <Head>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -35,14 +35,14 @@ export default class MyDocument extends Document {
 
           {/* Open Graph / Facebook */}
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://whatsapp-anyone.netlify.app/" />
+          <meta property="og:url" content="https://wa.pavitra.dev/" />
           <meta property="og:title" content="WhatsApp Anyone - without saving contact 🚀" />
           <meta property="og:description" content=".. and you can add it to your home screen ✨ hassle-free / secure / pwa-ready" />
           <meta property="og:image" content="/meta-image-01.png" />
 
           {/* Twitter */}
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://whatsapp-anyone.netlify.app/" />
+          <meta property="twitter:url" content="https://wa.pavitra.dev/" />
           <meta property="twitter:title" content="WhatsApp Anyone - without saving contact 🚀" />
           <meta property="twitter:description" content=".. and you can add it to your home screen ✨ hassle-free / secure / pwa-ready" />
           <meta property="twitter:image" content="/meta-image-01.png" />
@@ -51,7 +51,7 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }
